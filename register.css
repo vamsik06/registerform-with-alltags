@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    background-image: url(bg.jpg);
+    padding: 8px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+   
+    margin-left: 400px;
+    text-align: center;
+    margin-right: 400px;
+    padding: 10px;
+    
+   font-size: 20px;
+}
+label{
+    display: block;
+    font-weight: 20px;
+    color: rgba(215, 231, 185, 0.89);
+    padding: 5px;
+    width: 200px;
+    
+}
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=month],
+input[type=date],
+input[type=range],
+input[type=radio],
+input[type=datetime-local],
+input[type=number],
+input[type=search],
+input[type=url],
+input[type=file],
+textarea{
+    padding: 8px;
+    display: inline;
+}
+::placeholder{
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.jv{
+    height: 50px;
+}
+input[type="reset"]{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+input[type=reset]:hover{
+    background-color: crimson;
+
+}
+input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: crimson;
+}
+select{
+    width: 30%;
+    padding: 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}.a{
+    width: 100%;
+}
+.b{
+    width: 100%;
+}
+.container{
+    color: aliceblue;
+}
+fieldset{
+    color:whitesmoke;
+    margin: 10px;
+    border-color: burlywood;
+    border-radius: 10px;
+    
+}
